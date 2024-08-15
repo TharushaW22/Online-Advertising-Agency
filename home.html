@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,26 +8,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdHandiya</title>
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="./styles/home.css">
 </head>
 
 <body>
     <!--Header-->
     <nav>
         <div class="left-side">
-            <div class="logo">
-                <a href="./index.php"><img src="assets/Images/adlogo.png"></a>
+            <div class="logo"><img
+                    src="./Images/adlogo.png">
             </div>
             <ul>
                 <div class="nav-links">
-                    <li><a href="./index.php" class="home-link">Home</a></li>
-                    <li><a href="#allads" class="all-ads-link">All Ads</a></li>
+                    <li><a href="./home.html" class="home-link">Home</a></li>
+                    <li><a href="../Ad-view/index.html" class="all-ads-link">All Ads</a></li>
                 </div>
             </ul>
         </div>
         <ul>
             <div class="right-side">
-                <li><a href="./pages/login.php">Login/Register</a></li>
+                <li><a href="#reg">Login/Register</a></li>
                 <li><a href="#contact">Contact Us</a></li>
                 <li><a href="#post" class="postAD-link">Post Your AD!</a></li>
             </div>
@@ -33,7 +36,7 @@
 
     <div class="main-container">
         <div class="location-container">
-            <img class="map-icon" src="assets/Images/map.png" alt="Location Icon">
+            <img class="map-icon" src="./Images/map.png" alt="Location Icon">
             <label for="location-select"></label>
             <select id="location-select" name="location">
                 <!--All of Sri Lanka -->
@@ -118,7 +121,7 @@
 
                 <a href="#">
                     <div class="category-item">
-                        <img src="assets/Images/property.avif" alt="Property">
+                        <img src="./Images/property.avif"alt="Property">
                         <!-- Text overlay -->
                         <div class="text-overlay">Property</div>
                     </div>
@@ -127,7 +130,7 @@
 
                 <a href="#">
                     <div class="category-item">
-                        <img src="assets/Images/vehicles.jpg" alt="Vehicles">
+                        <img src="./Images/vehicles.jpg" alt="Vehicles">
                         <!-- Text overlay -->
                         <div class="text-overlay"> Vehicles</div>
                     </div>
@@ -135,20 +138,20 @@
 
                 <a href="#">
                     <div class="category-item">
-                        <img src="assets/Images/electronics.avif" alt="Electronics">
+                        <img src="./Images/electronics.avif" alt="Electronics">
                         <!-- Text overlay -->
                         <div class="text-overlay">Electronics</div>
                     </div>
                 </a>
 
                 <div class="category-item">
-                    <img src="assets/Images/fashion.jpg" alt="Fashion">
+                    <img src="./Images/fashion.jpg" alt="Fashion">
                     <!-- Text overlay -->
                     <div class="text-overlay">Fashion, Health & Beauty</div>
                 </div>
                 <a href="#sports">
                     <div class="category-item">
-                        <img src="assets/Images/sports.avif" alt="Sports">
+                        <img src="./Images/sports.avif" alt="Sports">
                         <!-- Text overlay -->
                         <div class="text-overlay">Sports</div>
                     </div>
@@ -163,28 +166,32 @@
                 <!-- Subcategory items -->
                 <a href="#animals">
                     <div class="subcategory-item">
-                        <img src="assets/Images/dog.png" alt="animals">
+                        <img src="./Images/dog.png"
+                            alt="animals">
                         <div class="text-overlay">Animals</div>
                     </div>
                 </a>
 
                 <a href="#kids">
                     <div class="subcategory-item">
-                        <img src="assets/Images/kids.png" alt="kids">
+                        <img src="./Images/kids.png"
+                            alt="kids">
                         <div class="text-overlay">Kids Items</div>
                     </div>
                 </a>
 
                 <a href="#tools">
                     <div class="subcategory-item">
-                        <img src="assets/Images/tools.png" alt="tools">
+                        <img src="./Images/tools.png"
+                            alt="tools">
                         <div class="text-overlay">Tools</div>
                     </div>
                 </a>
 
                 <a href="#others">
                     <div class="subcategory-item">
-                        <img src="assets/Images/others.png" alt="others">
+                        <img src="./Images/others.png"
+                            alt="others">
                         <div class="text-overlay">Others</div>
                     </div>
                 </a>
@@ -194,7 +201,7 @@
 
 
     <div class="adCampaigns-background">
-        <a href="./pages/offers.php"><button id="offers">View Offers</button></a>
+        <button id="offers"><a href="../OffersPage/offers.html">View Offers</a></button>
     </div>
 
 
@@ -203,23 +210,23 @@
         <div class="footer-row">
 
             <div class="footer-logo">
-                <img src="assets/Images/adlogo.png" alt="f-logo">
+                <img src="./Images/adlogo.png" alt="f-logo">
             </div>
 
             <div class="footer-followUs">
                 <ul>
                     <li>Follow Us</li>
                     <div class="f_uprow-links">
-                        <li><a href="#facebook"><img src="assets/Images/fb.png" alt="fb-logo"></a></li>
-                        <li><a href="#Instagram"><img src="assets/Images/ig.png" alt="Insta-logo"></a></li>
-                    </div>
-
+                        <li><a href="#facebook"><img src="./Images/fb.png" alt="fb-logo"></a></li>
+                        <li><a href="#Instagram"><img src="./Images/ig.png" alt="Insta-logo"></a></li>
+                    </div>            
+                  
                     <div class="f_downrow-links">
-                        <li><a href="#xtwitter"><img src="assets/Images/xtwitter.png" alt="xtweet-logo"></a></li>
-
-
-                        <li><a href="#linkedin"><img src="assets/Images/linkedin.png" alt="linkedin-logo"></a></li>
-                    </div>
+                        <li><a href="#xtwitter"><img src="./Images/xtwitter.png" alt="xtweet-logo"></a></li>
+                                    
+                                    
+                        <li><a href="#linkedin"><img src="./Images/linkedin.png"  alt="linkedin-logo"></a></li>
+                    </div>                
                 </ul>
 
             </div>
@@ -227,7 +234,7 @@
             <div class="footer-helpSup">
                 <ul>
                     <li>Help & Support</li>
-                    <li><a href="../FAQPage/FAQPage.php">FAQs</a></li>
+                    <li><a href="#FAQs">FAQs</a></li>
                     <li><a href="#StaySafe">Stay Safe</a></li>
                     <li><a href="#ContUs">Contact Us</a></li>
                 </ul>
@@ -236,7 +243,7 @@
             <div class="footer-aboutUs">
                 <ul>
                     <li>About Us</li>
-                    <li><a href="../AboutUsPage/AboutUsPage.php">About Us</a></li>
+                    <li><a href="#FAQs">About Us</a></li>
                     <li><a href="#StaySafe">Privacy Policy</li>
                     <li><a href="#ContUs">Terms & Conditions</a></li>
                 </ul>
